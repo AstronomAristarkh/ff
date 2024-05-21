@@ -1,0 +1,54 @@
+body {
+    background-color: silver;
+}
+
+.container {
+    background-color: white;
+    width: 1500px;
+    margin: 0 auto;
+  
+}
+
+header div {
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+   
+}
+
+header,
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+img {
+    float: left;
+    margin-right: 5px;
+}
+
+p {
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: wheat;
+}

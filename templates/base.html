@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин одежды</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>МАГАЗИН ОДЕЖДЫ</div>
+        </header>
+        <nav>
+            <a href="http://127.0.0.1:5000/clothes/">Одежда</a>
+            <a href="http://127.0.0.1:5000/index/">Главная</a>
+            <a href="http://127.0.0.1:5000/shoes/">Обувь</a>
+        </nav>
+        <main>
+       
+            <p>
+                {% block content %}
+                {% endblock %}
+                {% block goods %}
+                {% endblock %}
+            </p>  
+
+            
+
+        </main>
+        <footer>
+            <span>Контакты:   </span>
+        </footer>
+
+
+
+    </div>
+
+
+
+
+    
+    
+</body>
+</html>
